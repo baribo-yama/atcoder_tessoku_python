@@ -80,5 +80,15 @@ python3 problems/[実行したいファイル] < input.txt
 python3 problems/tessoku_book_d.py < input.txt
 
 
+# 鉄則演習問題（tessoku_book）以外を実行したい場合
+
+./cptest.sh の以下部分を変更
+
+```
+base_url_hyphen="tessoku-book" # 鉄則本固定にする場合
+```
+ここを好きなコンテストのslugに変更する
+（slug:URLの英数字で書かれた識別子のこと）
+
 # この環境作るために参考にしたサイト
 - https://qiita.com/hotpepsi/items/4cf9e6d3f7e8911a9771
