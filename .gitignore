@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv/
+
+# Local test input scratch file
+input.txt
+
+# Downloaded sample test cases (re-fetched via oj)
+test/
+
+# Python cache
+__pycache__/
+*.pyc
