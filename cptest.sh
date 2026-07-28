@@ -1,4 +1,7 @@
 #!/bin/bash
+script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
+source "${script_dir}/.venv/bin/activate"
+
 problem_name=$1
 test_dir=test/${problem_name}
 base_url_hyphen="tessoku-book" # 鉄則本固定にする場合
